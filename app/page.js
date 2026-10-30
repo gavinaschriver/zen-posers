@@ -4,7 +4,7 @@ import Nav from "./nav";
 
 const GOOGLE_MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=DRKMTTR+Collective+1111+Dickerson+Pike+Nashville+TN+37207";
-const GOOGLE_MEET_URL = "https://meet.google.com/nho-iacm-kxw";
+const JITSTI_MEETING_URL = "https://meet.jit.si/ZenPosers";
 
 export default function Home() {
   return (
@@ -78,7 +78,7 @@ export default function Home() {
               </a>{" "}
               and{" "}
               <a
-                href={GOOGLE_MEET_URL}
+                href={JITSTI_MEETING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="zen-link"
